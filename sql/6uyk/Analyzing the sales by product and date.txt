@@ -1,0 +1,16 @@
+SELECT 
+    name as product_name, 
+    CAST (extract(YEAR FROM date) AS INTEGER) as year, 
+    CAST (extract(month FROM date) AS INTEGER) as month,
+    CAST( extract(day FROM date) AS INTEGER ) as day,
+    SUM (price*count) AS total
+FROM sales_details 
+INNER JOIN products ON (products.id = sales_details.product_id)
+INNER JOIN sales ON (sales.id = sales_details.sale_id)
+GROUP BY
+    GROUPING SETS (
+        (product_name),
+        (product_name, year),
+        (product_name, year, month),
+        (product_name, year, month, day)
+    );

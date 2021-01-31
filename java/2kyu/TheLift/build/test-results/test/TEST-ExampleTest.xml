@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ExampleTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-01-22T18:38:00" hostname="DESKTOP-24TPDE1" time="0.023">
+  <properties/>
+  <testcase name="testTrickyQueues()" classname="ExampleTest" time="0.019"/>
+  <testcase name="testUpAndDown()" classname="ExampleTest" time="0.001"/>
+  <testcase name="testLiftFullUp()" classname="ExampleTest" time="0.0"/>
+  <testcase name="testDownAndDown()" classname="ExampleTest" time="0.0"/>
+  <testcase name="testDown()" classname="ExampleTest" time="0.001"/>
+  <testcase name="testUp()" classname="ExampleTest" time="0.0"/>
+  <testcase name="testUpAndUp()" classname="ExampleTest" time="0.001"/>
+  <testcase name="testHighlander()" classname="ExampleTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
